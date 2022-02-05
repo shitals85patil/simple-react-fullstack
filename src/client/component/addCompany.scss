@@ -1,0 +1,37 @@
+.add-modal {
+    .form-group {
+        display: flex;
+        input {
+            width: 80%;
+        }
+        label {
+            width: 20%;
+        }
+        .input-wrap {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            input {
+                width: 80%;
+            }
+        }
+    }
+    .head-office {
+        input{
+            width: 50%;
+        }
+    }
+    .remove-btn{
+        display: flex;
+        margin-bottom: 10px;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    .modal-body{
+        overflow-y: scroll;
+        overflow-x: hidden;
+        max-height: 70vh;
+    }
+}
+
+

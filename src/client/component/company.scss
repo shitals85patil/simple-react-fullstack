@@ -1,0 +1,22 @@
+.home-wrap {
+    .company-management-header{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+        background: black;
+        color: #fff;
+        padding: 10px 20px;
+        button{
+            width: 8%;
+        }
+    }
+    .company-table{
+        width: 90%;
+        margin: 0 auto;
+        thead{
+            background-color: #bbbbbb5c;
+        }
+    }
+}
+
+
